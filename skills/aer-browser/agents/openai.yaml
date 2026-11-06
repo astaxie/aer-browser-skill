@@ -1,0 +1,6 @@
+interface:
+  display_name: "AER 浏览器"
+  short_description: "通过 Aer 原生 CLI 读取和操作已打开的网页，复用当前登录状态"
+  default_prompt: "使用 $aer-browser 读取 Aer 中与任务相关的网页，按我的要求操作并检查结果。"
+policy:
+  allow_implicit_invocation: true
